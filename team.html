@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - DigiBizz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #088395;
+            --secondary-color:#37B7C3;
+            --text-color: #2b2d42;
+            --light-bg: #EBF4F6;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #2b2d42;
+            background-color:#EBF4F6;
+        }
+        .navbar {
+            background-color: #088395;
+        }
+        .navbar-brand {
+            height: 50px;
+           
+        }
+        .nav-link {
+            font-family: 'Gill Sans', 'Gill Sans MT';
+            font-weight: bold;
+            align-items: center;
+            font-size: 18px;
+            color: #ffff;
+        }
+        .nav-link:hover{
+            color: #37B7C3;
+            text-decoration: underline;
+
+        }
+
+        .nav-link a{
+            text-align: center;
+        }
+
+        .search-btn{
+            color: #507687;
+            margin-left: 50px;
+            
+        }
+
+        .navbar-toggler {
+            color: #37B7C3;
+        }
+
+        .btn-primary {
+            background-color: #088395;
+            border-color: #37B7C3;
+            transition: 0.5s;
+        }
+        .btn-primary:hover {
+            background-color: #088395;
+            border-color: white;
+            transform: scale( 1.1);
+            cursor: pointer;
+        }
+    
+        
+        .card {
+            background-color: white;
+            border: none;
+            margin: 40px;
+            height: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: 0.5s;
+        }
+
+        .card:hover {
+            transform: translateY(-20px);
+            cursor: pointer;
+            
+        }
+
+        .Our-Experts-card{
+            background-color: #EBF4F6;
+            border: none;
+            height: 500px;
+            padding: 20px;
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: 0.5s;
+            margin: 10px;
+        }
+
+
+        .Our-Experts-card img{
+            object-fit: cover;
+            border-radius: 20px;
+            height: 400px;
+            max-width: 250px;
+            margin-bottom: 10px;
+            transition: 0.5s;
+
+        }
+        .Our-Experts-card img:hover{
+            transform: translateY(-10px);
+            cursor: pointer;
+        }
+
+        .hero {
+            background-color: var(--secondary-color);
+            padding: 100px 0;
+        }
+       
+        .team-member {
+            transition: transform 0.3s ease-in-out;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #507687;
+            color: white;
+        }
+        .useful-link h5 {
+            text-align: center;
+            
+        }
+
+        .about-us p{
+            margin-top: 20px;
+        }
+        .useful-link ul{
+            text-align: center;
+
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <img class="navbar-brand" src="Image/digibizz-high-resolution-logo-transparent.png" alt="" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-house-fill" viewBox="0 2 16 16">
+                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                          </svg> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 2 16 16">
+                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
+                          </svg> About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-people-fill" viewBox="0 2 16 16">
+                            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                          </svg> Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+                          </svg> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-clipboard-fill" viewBox="0 2 16 16">
+                            <path fill-rule="evenodd" d="M10 1.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5zm-5 0A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5v1A1.5 1.5 0 0 1 9.5 4h-3A1.5 1.5 0 0 1 5 2.5zm-2 0h1v1A2.5 2.5 0 0 0 6.5 5h3A2.5 2.5 0 0 0 12 2.5v-1h1a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3.5a2 2 0 0 1 2-2"/>
+                          </svg> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-substack" viewBox="0 2 16 16">
+                            <path d="M15 3.604H1v1.891h14v-1.89ZM1 7.208V16l7-3.926L15 16V7.208zM15 0H1v1.89h14z"/>
+                          </svg> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-telephone-plus" viewBox="0 1 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            <path fill-rule="evenodd" d="M12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
+                          </svg> Contact</a>
+                    </li>
+                </ul>
+                <nav class="search-btn">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary btn" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </nav>
+<!-- Navbar Section End-->
+
+<!-- Hero Section Start--> 
+<section class="hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Our Team</h1>
+            <p class="lead">At DigiBizz, our success is driven by a talented team of digital marketing experts, creative thinkers, and tech enthusiasts. Each member brings unique skills and passion to the table, working together to deliver innovative solutions that help businesses thrive. Meet the dedicated professionals behind DigiBizz, committed to making your brand's digital journey a success!</p>
+            <hr style="color: black;">
+            <hr style="width: 50%; color: black;">
+            <p class="lead">Meet the talented professionals behind our success.</p>
+
+        </div>
+    </section>
+<!-- Hero Section End-->     
+
+<!-- Lead Team Section Start-->    
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Leadership Team</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Image/portrait-male-dark-ash-color-suit-isolated-white-background_1029679-132464.jpg" class="card-img-top" alt="CEO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text text-muted">CEO & Founder</p>
+                            <p class="card-text">With over 20 years of experience in the tech industry, John leads our company with vision and innovation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Image/male-revies.jpg" class="card-img-top" alt="CTO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text text-muted">CTO</p>
+                            <p class="card-text">Jane is the driving force behind our technological advancements  and innovative solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="Image/woman-suit-with-her-arms-crossed_1029679-109790.jpg" class="card-img-top" alt="COO">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Miky John</h5>
+                            <p class="card-text text-muted">COO</p>
+                            <p class="card-text">Mike ensures smooth operations and delivers exceptional results for our clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Lead Team Section End-->    
+
+<!-- Our Expert section Start-->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Experts</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="Our-Experts-card shadow-sm">
+                        <img src="Image/Alice Brown.png" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alice Brown</h5>
+                            <p class="card-text text-muted">Lead Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="Our-Experts-card shadow-sm">
+                        <img src="Image/Bob Wilson.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Bob Wilson</h5>
+                            <p class="card-text text-muted">Senior Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="Our-Experts-card shadow-sm">
+                        <img src="Image/Carol Davis.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Carol Davis</h5>
+                            <p class="card-text text-muted">Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="Our-Experts-card shadow-sm">
+                        <img src="Image/David Lee.jpg" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">David Lee</h5>
+                            <p class="card-text text-muted">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Our Expert Section End--> 
+    
+<!-- Foopter banner Start-->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Join Our Team</h2>
+            <p class="lead mb-4">We're always looking for talented individuals to join our growing team.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">View Open Positions</a>
+        </div>
+    </section>
+<!-- Foopter banner end -->    
+
+<!-- Foopter section Start-->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="about-us col-md-4 mb-4">
+                    <h5>About Us</h5>
+                    <img class="navbar-brand" src="Image/digibizz-high-resolution-logo-transparent.png" alt="" />
+                    <p>DigiBizz is a results-driven digital marketing agency, focused on helping businesses grow online. We specialize in SEO, social media, content, and tailored digital strategies to boost your brand and drive success. Let's take your business to new digital heights!</p>
+                </div>
+                <div class="useful-link col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="team.html" class="text-white">Team</a></li>
+                        <li><a href="services.html" class="text-white">Services</a></li>
+                        <li><a href="portfolio.html" class="text-white">Portfolio</a></li>
+                        <li><a href="blog.html" class="text-white">Blog</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        123 Business Street<br>
+                        City, State 12345<br>
+                        Phone: +123-456-7890<br>
+                        Email: info@DigiBizz.com
+                    </address>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2024 DigiBizz Brand. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white me-2">Facebook</a>
+                    <a href="#" class="text-white me-2">Twitter</a>
+                    <a href="#" class="text-white me-2">LinkedIn</a>
+                    <a href="#" class="text-white">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Foopter section End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
