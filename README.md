@@ -3,9 +3,9 @@ This project is a Digital Marketing Agency fully responsive, multi-page website 
 
 Key sections include:
 
-A dynamic hero section highlighting core services like SEO, social media management, and web development.
-A well-structured "About Us" and more Pages section emphasizing collaboration, innovation, and excellence.
-A fully responsive design that adapts seamlessly across desktops, tablets, and mobile devices for a flawless browsing experience on any platform.
+- A dynamic hero section highlighting core services like SEO, social media management, and web development.
+- A well-structured "About Us" and more Pages section emphasizing collaboration, innovation, and excellence.
+- A fully responsive design that adapts seamlessly across desktops, tablets, and mobile devices for a flawless browsing experience on any platform.
 
 OUTPUT:
 
